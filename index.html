@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1">
+            <title>Portafolio</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="https://kit.fontawesome.com/c1eae85dfa.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="menu">
+            <label class="logo"><a href="#inicio">JEFM</a></label>
+                <ul class="menu-items">
+                    <li class=""><a href="#portafolio">Portafolio</a></li>
+                    <li class=""><a href="#habilidades">Habilidades</a></li>
+                    <li class=""><a href="#about">Sobre mi</a></li>
+                    <li class=""><a href="#contacto">Contacto</a></li>
+                </ul>
+            <span class="btn-menu"><i class="far fa-bars"></i></span>
+        </nav>
+        <main class="contenedor" id="inicio">
+            <div class="bienvenida">
+                <img class="imge" src="./img/javier-portafolio.png"/>
+                    <h1 class="nombre">Javier Flores Macías</h1>
+                    <hr>
+                    <h2 class="cargo">Diseñador Web - Editor de video</h2>
+            </div>
+        </main>
+        <div class="portafolio" id="portafolio">
+            <h1 class="titulos">Portafolio</h1>
+            <ul class="proyectos ">
+                <li>
+                    <img class="img-portafolio" src="./img/portafolio-1.jpeg">
+                        <h2 class="titulo-portafolio">Web estática</h2>
+                        <p class="descripcion-portafolio">Primera web estática que hice sobre un medio de comunicación de tecnología.</p>
+                        <a href="https://60ac0468255cc51c94b57945--laughing-volhard-0034eb.netlify.app/" target="_blank"><button class="btn-web">Web</button></a>
+                        <a href="https://github.com/pixelcodejf/primera-web" target="_blank"><button class="btn-code">Código</button></a>
+                </li>
+                <li>
+                    <img class="img-portafolio" src="./img/video-html-css-js.jpg">
+                        <h2 class="titulo-portafolio">Reproductor</h2>
+                        <p class="descripcion-portafolio">Realicé un reproductor de video con HTML, CSS y Javascript</p>
+                        <a href="https://pixelcodejf.github.io/video-player/" target="_blank"><button class="btn-web">Web</button></a>
+                        <a href="https://github.com/pixelcodejf/video-player" target="_blank"><button class="btn-code">Código</button></a>
+                </li>
+                <li>
+                    <img class="img-portafolio" src="./img/portafolio.jpg">
+                        <h2 class="titulo-portafolio">Responsive</h2>
+                        <p class="descripcion-portafolio">Realicé mi portafolio con diseño responsive usando HTML, CSS y Javascript</p>
+                        <a href="https://pixelcodejf.github.io/portafolio-2021/" target="_blank"><button class="btn-web">Web</button></a>
+                        <a href="https://github.com/pixelcodejf/portafolio-2021" target="_blank"><button class="btn-code">Código</button></a>
+                </li>
+            </ul>
+        </div>
+    <div class="bg-habilidades" id="habilidades">
+        <div class="cont-habilidades">
+            <h1 class="titulos">HABILIDADES</h1>
+            <ul class="skills-slider">
+                <li><img src="./img/HTML.png"/></li>
+                <li><img src="./img/CSS.png"/></li>
+                <li><img src="./img/JS.png"/></li>
+            </ul>
+            <ul class="skills-slider">
+                <li><img src="./img/Adobe_Premiere_Pro.png"/></li>
+                <li><img src="./img/Adobe_After_Effects.png"/></li>
+                <li><img src="./img/adobe-photoshop.png"/></li>
+                <li><img src="./img/adobe-illustrator.png"/></li>
+            </ul>
+        </div>
+    </div>
+        <div class="bg-sobre-mi" id="about">
+            <div class="sobre-mi">
+                <h1 class="titulos">Sobre mi</h1>
+            <ul class="habilidades">
+                <div class="bg-blur">
+                    <p class="desc-sobre-mi">Soy Javier Flores Macías, estudiante de la carrera de Comunicación Social en la Universidad Nacional Mayor de San Marcos, me apasiona el mundo de la tecnología y de la programación.</p>
+                </div>
+            </ul>
+        </div>
+        </div>
+        <div class="bg-contacto" id="contacto">
+            <div class="contacto">
+            <h1 class="titulos">Contacto</h1>
+        <!--Formulario de contactos-->
+        <form id="enviar-datos" class="formulario">
+            <div class="segmentos-form" id="part-contacto">
+                <label for="contacto"><i class="far fa-user icon"></i></label>
+                <input class="caja-formulario"  id="contacto" type="text" placeholder="Nombre de contacto">
+            </div>
+            <div class="segmentos-form" id="part-email">
+                <label for="email"><i class="far fa-envelope icon"></i></label>
+                <input class="caja-formulario"  id="email" type="email" placeholder="E-mail">
+            </div>
+            <div class="segmentos-form" id="part-msj">
+                <label for="texto"><i class="far fa-envelope icon"></i></label>
+                <textarea class="caja-mensaje" id="texto" placeholder="Mensaje (Opcional)"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <button id="btnEnviar" class="boton" type="submit">Enviar</button>
+            </div>
+        </form>
+            </div>
+        </div>
+        <footer>
+        <div class="pie">
+            <h3 class="titulo-pie">Redes Sociales</h3>
+            <!--Redes Sociales-->
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/javierefloresmacias/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a></li>
+                <li><a href="https://twitter.com/javier_craq" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a></li>
+                <li><a href="https://www.instagram.com/javier_floresmacias/" target="_blank">
+                    <i class="fab fa-instagram-square"></i>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/javierfloresmacias/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+                <li><a href="https://github.com/pixelcodejf" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a></li>
+                <li><a href="https://www.youtube.com/channel/UCL57Q0dZpVqShGLl2xlZ7dA" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a></li>
+            </ul>
+        </div>
+            <p class="credito"><small>Copyright © 2021 Javier Flores Macías</small></p>
+        </footer>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
